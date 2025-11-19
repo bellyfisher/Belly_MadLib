@@ -5,10 +5,23 @@
 
 .card {
   border-radius: var(--card-radius);
+  background-color: lightpink;
+  color: antiquewhite;
+  font-family: "Delius", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 #madlib-output {
   min-height: 6rem; /* keeps the card from collapsing before story appears */
   line-height: 1.6;
   font-size: 1.05rem;
+}
+
+header {
+  background-color: antiquewhite;
+  color: lightpink;
+  font-family: "Delius", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
